@@ -15,14 +15,15 @@ What characters denote optional parts of a command?
 Show the characters and give their name.
 
 ```md
-<!-- replace this comment with your answer -->
+[things inside brackets are optional to the command]
 ```
 
 What characters indicate a possibly repeating element in a command?
 Show the characters and give their name.
 
 ```md
-<!-- replace this comment with your answer -->
+... dots
+dots mean the preceding element can be repeated
 ```
 
 ## Creating or removing a database
@@ -30,13 +31,13 @@ Show the characters and give their name.
 What shell command would you execute to create a database named `mydb`?
 
 ```sh
-# replace this comment with your answer
+CREATE DATABASE mydb;
 ```
 
 What shell command would you execute to remove a database named `mydb`?
 
 ```sh
-# replace this comment with your answer
+DROP DATABASE mydb;
 ```
 
 ## Creating or removing a table
@@ -44,13 +45,13 @@ What shell command would you execute to remove a database named `mydb`?
 What two SQL keywords precede the table name when creating a database table?
 
 ```sql
-/* replace this comment with your answer */
+CREATE TABLE
 ```
 
 What is the SQL command to remove a database table named `mytable`?
 
 ```sql
-/* replace this comment with your answer */
+DROP TABLE mytable;
 ```
 
 ## Table row CRUD
@@ -59,23 +60,23 @@ What two SQL keywords precede the table name when populating
 a database table with rows?
 
 ```sql
-/* replace this comment with your answer */
+INSERT INTO
 ```
 
 What SQL keyword starts the command to retrieve data from a database table?
 
 ```sql
-/* replace this comment with your answer */
+SELECT
 ```
 
 What SQL command is used to update existing rows in a database table?
 
 ```sql
-/* replace this comment with your answer */
+UPDATE
 ```
 
 What SQL command is used to remove rows from a database table?
 
 ```sql
-/* replace this comment with your answer */
+DELETE FROM
 ```
